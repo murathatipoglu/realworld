@@ -15,6 +15,7 @@ This repo implements opinionated best practices for Apollo Client, React, Next.j
 ```sh
 cd api
 bundle
+bin/rails db:create
 bin/rails db:migrate
 bin/rails db:seed
 bin/rails s
